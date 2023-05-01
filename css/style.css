@@ -9,7 +9,7 @@
 nav{
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 /* *************************** FİRST NAVBAR *********************** */
@@ -32,10 +32,11 @@ nav{
     align-items: center;
     list-style-type: none;
     padding: 15px 0 0 0;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-family: 'Proxima Nova', sans-serif;
+    color: #5F6369;
 }
 
 .first_navbar ul li:nth-child(2),.first_navbar ul li:nth-child(11),.first_navbar ul li:nth-child(16){
@@ -94,9 +95,11 @@ nav{
     display: flex;
     list-style-type: none;
     padding: 1px 0 0 0;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.03em;
     font-family: 'Proxima Nova', sans-serif;
     font-size: 13px;
+    line-height: 1.5;
+    color: #231F20;
 }
 
 .second_navbar ul:nth-child(2){
@@ -106,13 +109,13 @@ nav{
 .second_navbar ul:nth-child(2) li{
     display: flex;
     width: 355px;
-    margin-left: 120px;
+    margin-left: 108px;
     font-size: 16px;
     font-family: 'Proxima Nova', sans-serif;
 }
 
 .second_navbar ul:nth-child(2) div{
-    width: 150px;
+    width: 140px;
     margin: 0 30px 0 10px;
 }
 
@@ -140,5 +143,98 @@ nav{
     text-transform: none;
     margin: 20px 9px 0 9px;
     /* letter-spacing: 0.1em; */
+}
+
+/* ************************* CAROUSEL SECTİON ************************** */
+
+.carousel .container{
+    height: 410px;
+    width: 83%;
+} 
+
+.carousel .image-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 97.6%;
+}
+
+.gallery {
+    width: 98.8%;
+    height: 600px;
+    cursor: pointer;
+}
+
+.image-holder {
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;  
+    
+}
+
+.image-holder .textOfSlide{
+   padding-left: 75px;
+}
+
+.carousel .image-holder h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: #231F20;
+    letter-spacing: 0.06em;
+    line-height: 110%;
+}
+
+.carousel .image-holder p{
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 160%;
+    font-style: normal;
+    color: #5F6369;
+    letter-spacing: 0.06em;
+}
+
+.carousel .image-holder button{
+    margin-top: 34px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    padding: 16px 30px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #F9C20A;
+}
+
+.carousel .icon-left{
+    margin-bottom: 22%;
+    justify-content: space-around;
+}
+
+.carousel .icon-right{
+    justify-content: end;
+    margin-bottom: 22%;
+    margin-right: 46px;
+}
+
+.carousel .icon-left i,.carousel .icon-right i{
+    width: 48px;
+    height: 48px;
+    background: #d6a10e;
+    border-radius: 50%;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .image-holder img {
+    width: 100%;
+    height: 660px;
+    object-fit: contain;
+}
+
+.active {
+    opacity: 1;
 }
 
