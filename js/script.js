@@ -77,11 +77,11 @@ function Start_Interval() {
     return id
 }
 
-// *************************** NEWS TABS SECTION *******************************
+// *************************** NAV TABS SECTION *******************************
 
-let tabs = document.querySelectorAll('[data-tab-target]')
+let tabs = document.querySelectorAll('.news_tab')
 
-let tabContents = document.querySelectorAll('[data-tab-content]')
+let tabContents = document.querySelectorAll('.tab_content')
 
 tabs.forEach(tab=>{
   tab.addEventListener('click', ()=>{
@@ -90,6 +90,46 @@ tabs.forEach(tab=>{
       tabContent.classList.remove('active')
     })
     tabs.forEach(tab =>{
+      tab.classList.remove('active')
+    })
+    tab.classList.add('active')
+    target.classList.add('active')
+  })
+})
+
+// *************************** CALCULATOR SECTION *******************************
+
+let tabsCalc = document.querySelectorAll('.calc_tab')
+
+let tabContentsCalc = document.querySelectorAll('.tab_content_calc')
+
+tabsCalc.forEach(tab=>{
+  tab.addEventListener('click', ()=>{
+    let target = document.querySelector(tab.dataset.tabTarget)
+    tabContentsCalc.forEach(tabContent=>{
+      tabContent.classList.remove('active')
+    })
+    tabsCalc.forEach(tab =>{
+      tab.classList.remove('active')
+    })
+    tab.classList.add('active')
+    target.classList.add('active')
+  })
+})
+
+// *************************** CALCULATOR ==> CURRENCY SECTION ************************
+
+let tabsCrncy = document.querySelectorAll('.currency_tab')
+
+let tabContentsCrncy = document.querySelectorAll('.tab_content_c')
+
+tabsCrncy.forEach(tab=>{
+  tab.addEventListener('click', ()=>{
+    let target = document.querySelector(tab.dataset.tabTarget)
+    tabContentsCrncy.forEach(tabContent=>{
+      tabContent.classList.remove('active')
+    })
+    tabsCrncy.forEach(tab =>{
       tab.classList.remove('active')
     })
     tab.classList.add('active')

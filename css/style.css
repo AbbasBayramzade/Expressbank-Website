@@ -229,7 +229,7 @@ nav{
     opacity: 1;
 }
 
-/* ************************* TABS SECTİON ************************** */
+/* ************************* NAV & TABS SECTİON ************************** */
 
 .news_cards{
     background-color: #f1f1f1;
@@ -342,10 +342,10 @@ nav{
     margin-bottom: 10px;
 }
 
-[data-tab-content]{
+.tab_content{
     display: none;
   }
-  .active[data-tab-content]{
+  .active.tab_content{
     display: block;
   }
   .tabs{
@@ -367,9 +367,10 @@ nav{
     padding: 10px;
   }
   .tab.active{
+    color: #ff0141;
     border-bottom: 1px solid #5F6369;
   }
-  
+ 
   .news_cards a{
     text-decoration: none;
     color: black;
@@ -429,3 +430,552 @@ nav{
     font-style: normal;
   }
 
+  /* ********************** CALCULATOR ==> HOMEX SECTION *************************** */
+
+.calculator{
+    height: auto;
+    padding: 31px 0 91px 0;
+}
+
+.calculator .container{
+    width: 82%;
+    box-sizing: border-box;
+}
+
+.calculator .tabs{
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #D7D8D6;
+  }
+
+.calculator .container .main ul li{
+    color: #5F6369;
+    margin-right: 30px;
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    padding-left: 0;
+    font-size: 17px;
+}
+
+.calculator .container #homex .row .calculate_box .number_azn li:nth-child(2){
+    border-bottom: 1px solid #e2b41d;
+}
+
+.calculator .container #homex .row .calculate_box{
+    display: flex;
+    height: 587px;
+    padding: 60px 80px;
+    border-radius: 16px;
+    box-shadow: 0px 16px 56px rgba(0, 0, 0, 0.16);
+    margin-top: 20px;
+}
+
+.calculator .container #homex .row .calculate_box h4{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+}
+
+.calculator .container #homex .row .calculate_box .input_container{
+    width: 40%;
+    height: 467px;
+    padding-right: 100px;
+    border-right: 1px solid #D7D8D6;
+}
+
+.calculator .container #homex .row .calculate_box .input_container h5,.result_container h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #231F20;
+    margin-bottom: 45px;
+}
+
+.calculator .container #homex .row .calculate_box .input_container .form_element{
+    width: 336px;
+    height: 75px;
+    margin-bottom: 25px;
+    padding: 10px 0 0 35px;
+    border: 1px solid #D7D8D6;
+    border-radius: 8px;
+}
+
+.calculator .container #homex .row .calculate_box .input_container .form_element .range-slider input{
+    width: 325px;
+    margin-left: -30px;
+}
+
+.calculator .container #homex .row .calculate_box .input_container .form_element .number_azn{
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.calculator .container #homex .row .calculate_box .input_container .form_element p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #5F6369;
+    margin: 0;
+}
+
+.calculator .container #homex .row .calculate_box .result_container{
+    width: 60%;
+    height: 467px;
+    padding-left: 80px;
+}
+
+.calculator .container #homex .row .calculate_box .result_container .result_numbers{
+    display: flex;
+}
+
+.calculator .container #homex .row .calculate_box .result_container .result_numbers .result_for_month{
+    height: 67px;
+    font-size: 32px;
+    letter-spacing: 0.06em;
+    color: #231F20;
+    margin-right: 60px;
+}
+
+.calculator .container #homex .row .calculate_box .result_container .result_numbers .result_for_month p{
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.06em;
+    color: #5F6369;
+}
+
+.calculator .container #homex .row .calculate_box .result_container button{
+    margin-top: 60px;
+    width: 100%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    color: #231F20;
+    padding: 16px 30px;
+    background: #F9C20A;
+    transition: 0.2s;
+}
+
+.calculator .container #homex .row .calculate_box .result_container button:hover{
+    background-color: #f8a03b;
+}
+
+.calculator .container #homex .row{
+    padding: 28px 0 41px 0;
+}
+
+.calculator .container #homex{
+    padding-top: 40px;
+}
+
+.calculator .tab_content_calc{
+    display: none;
+  }
+
+ .calculator .active.tab_content_calc{
+    display: block;
+  }
+
+  /* ************************ CALCULATOR ==> PRICINGX SECTION ****************************/
+
+  .calculator .container #pricingx .row .calculate_box{
+    display: flex;
+    height: 587px;
+    padding: 60px 80px;
+    border-radius: 16px;
+    box-shadow: 0px 16px 56px rgba(0, 0, 0, 0.16);
+    margin-top: 20px;
+}
+
+.calculator .container #pricingx .row .calculate_box h4{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+}
+
+.calculator .container #pricingx .row .calculate_box .input_container{
+    width: 40%;
+    height: 467px;
+    padding-right: 100px;
+    border-right: 1px solid #D7D8D6;
+}
+
+.calculator .container #pricingx .row .calculate_box .input_container h5,.result_container h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #231F20;
+    margin-bottom: 45px;
+}
+
+.calculator .container #pricingx .row .calculate_box .input_container .form_element{
+    width: 336px;
+    height: 75px;
+    margin-bottom: 25px;
+    padding: 10px 0 0 35px;
+    border: 1px solid #D7D8D6;
+    border-radius: 8px;
+}
+
+.calculator .container #pricingx .row .calculate_box .input_container .form_element .range-slider input{
+    width: 325px;
+    margin-left: -30px;
+}
+
+.calculator .container #pricingx .row .calculate_box .input_container .form_element .number_azn{
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.calculator .container #pricingx .row .calculate_box .input_container .form_element p{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #5F6369;
+    margin: 0;
+}
+
+.calculator .container #pricingx .row .calculate_box .result_container{
+    width: 60%;
+    height: 467px;
+    padding-left: 80px;
+}
+
+.calculator .container #pricingx .row .calculate_box .result_container .result_numbers{
+    display: flex;
+}
+
+.calculator .container #pricingx .row .calculate_box .result_container  .result_for_month{
+    height: 67px;
+    font-size: 32px;
+    letter-spacing: 0.06em;
+    color: #231F20;
+    margin-right: 60px;
+}
+
+.calculator .container #pricingx .row .calculate_box .result_container  .result_for_month:nth-child(3){
+    margin-top: 20px;
+}
+
+.calculator .container #pricingx .row .calculate_box .number_azn li:nth-child(2){
+    border-bottom: 1px solid #e2b41d;
+}
+
+.calculator .container #pricingx .row .calculate_box .result_container  .result_for_month p{
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.06em;
+    color: #5F6369;
+}
+
+.calculator .container #pricingx .row .calculate_box .result_container button{
+    margin-top: 60px;
+    width: 100%;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.12em;
+    color: #231F20;
+    padding: 16px 30px;
+    background: #F9C20A;
+    transition: 0.2s;
+}
+
+.calculator .container #pricingx .row .calculate_box .result_container button:hover{
+    background-color: #f8a03b;
+}
+
+.calculator .container #pricingx .row{
+    padding: 28px 0 41px 0;
+}
+
+.calculator .container #pricingx{
+    padding-top: 40px;
+}
+
+.calculator .tab_content_calc{
+    display: none;
+  }
+
+ .calculator .active.tab_content_calc{
+    display: block;
+  }
+
+ .calculator .tab{
+    cursor: pointer;
+    padding: 10px;
+  }
+
+
+/************************* CALCULATOR ==> CURRENCY ==> CASH_CONTAINER SECTION ***************************/
+
+
+.calculator .container #currency .row .cash_container thead td{
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #616173;
+    font-weight: 600;
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+    text-align: center;
+}
+
+.calculator .container #currency .row .cash_container thead td:nth-child(1){
+    text-align: left;
+}
+
+.calculator .container #currency img{
+    margin-right: 20px;
+    margin-top: -5px;
+    vertical-align: middle;
+    border-style: none;
+    display: inline-block;
+}
+
+.calculator .container #currency .row .cash_container thead td:nth-child(2),
+.calculator .container #currency .row .cash_container thead td:nth-child(3),
+.calculator .container #currency .row .cash_container thead td:nth-child(4),
+.calculator .container #currency .row .cash_container thead td:nth-child(5),
+.calculator .container #currency .row .cash_container thead td:nth-child(6){
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.calculator .container #currency .row .cash_container tbody td:nth-child(2),
+.calculator .container #currency .row .cash_container tbody td:nth-child(3),
+.calculator .container #currency .row .cash_container tbody td:nth-child(4),
+.calculator .container #currency .row .cash_container tbody td:nth-child(5),
+.calculator .container #currency .row .cash_container tbody td:nth-child(6){
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+    text-align: center;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.calculator .container #currency .row .cash_container tbody td{
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #616173;
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+}
+
+.calculator .container #currency .row{
+    padding:28px 0 41px 0;
+}
+
+.calculator .container #currency{
+    padding-top: 40px;
+}
+
+.calculator .tab_content_currency{
+    display: none;
+}
+
+ .calculator .active.tab_content_currency{
+    display: block;
+}
+
+.calculator .container #currency table{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.calculator .container #currency button{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #231F20;
+    cursor: pointer;
+    background: #F5F5F5;
+    width: 100%;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.calculator .container #currency button:hover{
+    background-color: #fd9f34;
+}
+
+.calculator .container #currency p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/************************* CALCULATOR ==> CURRENCY ==> CASHLESS_CONTAINER SECTION ***************************/
+
+.calculator .container #currency .row .cashless_container thead td{
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #616173;
+    font-weight: 600;
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+    text-align: center;
+}
+
+.calculator .container #currency .row .cashless_container thead td:nth-child(1){
+    text-align: left;
+}
+
+.calculator .container #currency img{
+    margin-right: 20px;
+    margin-top: -5px;
+    vertical-align: middle;
+    border-style: none;
+    display: inline-block;
+}
+
+.calculator .container #currency .row .cashless_container thead td:nth-child(2),
+.calculator .container #currency .row .cashless_container thead td:nth-child(3),
+.calculator .container #currency .row .cashless_container thead td:nth-child(4),
+.calculator .container #currency .row .cashless_container thead td:nth-child(5),
+.calculator .container #currency .row .cashless_container thead td:nth-child(6){
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.calculator .container #currency .row .cashless_container tbody td:nth-child(2),
+.calculator .container #currency .row .cashless_container tbody td:nth-child(3),
+.calculator .container #currency .row .cashless_container tbody td:nth-child(4),
+.calculator .container #currency .row .cashless_container tbody td:nth-child(5),
+.calculator .container #currency .row .cashless_container tbody td:nth-child(6){
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+    text-align: center;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.calculator .container #currency .row .cashless_container tbody td{
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #616173;
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+}
+
+.calculator .container #currency .row{
+    padding:28px 0 41px 0;
+}
+
+.calculator .container #currency{
+    padding-top: 40px;
+}
+
+.calculator .tab_content_c{
+    display: none;
+}
+
+ .calculator .active.tab_content_c{
+    display: block;
+}
+
+/************************* CALCULATOR ==> CURRENCY ==> CARD_TR_CONTAINER SECTION ***************************/
+
+.calculator .container #currency .row .card_tr_container thead td{
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #616173;
+    font-weight: 600;
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+    text-align: center;
+}
+
+.calculator .container #currency .row .card_tr_container thead td:nth-child(1){
+    text-align: left;
+}
+
+.calculator .container #currency img{
+    margin-right: 20px;
+    margin-top: -5px;
+    vertical-align: middle;
+    border-style: none;
+    display: inline-block;
+}
+
+.calculator .container #currency .row .card_tr_container thead td:nth-child(2),
+.calculator .container #currency .row .card_tr_container thead td:nth-child(3),
+.calculator .container #currency .row .card_tr_container thead td:nth-child(4),
+.calculator .container #currency .row .card_tr_container thead td:nth-child(5),
+.calculator .container #currency .row .card_tr_container thead td:nth-child(6){
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.calculator .container #currency .row .card_tr_container tbody td:nth-child(2),
+.calculator .container #currency .row .card_tr_container tbody td:nth-child(3),
+.calculator .container #currency .row .card_tr_container tbody td:nth-child(4),
+.calculator .container #currency .row .card_tr_container tbody td:nth-child(5),
+.calculator .container #currency .row .card_tr_container tbody td:nth-child(6){
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+    text-align: center;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.calculator .container #currency .row .card_tr_container tbody td{
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    color: #616173;
+    padding: 15px;
+    border-bottom: 1px solid #D7D8D6;
+}
+
+.calculator .container #currency .row{
+    padding:28px 0 41px 0;
+}
+
+.calculator .container #currency{
+    padding-top: 40px;
+}
+
+.calculator .tab_content_c{
+    display: none;
+}
+
+ .calculator .active.tab_content_c{
+    display: block;
+}
+
+  

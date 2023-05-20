@@ -150,7 +150,7 @@
 
     </section>
 
-    <!-- ******************* NEWS-CARDS SECTION -->
+    <!-- ******************* NAV & TABS  SECTION ********************** -->
 
     <section class="news_cards" id="newcrd">
         
@@ -158,11 +158,11 @@
             
             <div class="main">
                 <ul class="tabs">
-                   <li data-tab-target="#home" class="tab active">Sizə maraqlı ola bilər</li>
-                   <li data-tab-target="#pricing" class="tab">Xəbərlər</li>
+                   <li data-tab-target="#home" class="tab active news_tab">Sizə maraqlı ola bilər</li>
+                   <li data-tab-target="#pricing" class="tab news_tab">Xəbərlər</li>
                 </ul>
                 <div class="tab-content">
-                  <div id="home" data-tab-content class="active">
+                  <div id="home" class="active tab_content">
                    <div class="row">
                     <div class="col-3">
                     <div class="card">
@@ -208,7 +208,7 @@
                   </div>
                   </div>
 
-                  <div id="pricing" data-tab-content >
+                  <div id="pricing" class="tab_content">
 
                         <div class="card-deck" id="sectab">
 
@@ -257,6 +257,349 @@
               </div>
 
     </section>
+
+    <!-- ******************* CALCULATOR SECTION ********************** -->
+
+    <section class="calculator" id="newcrd">
+        
+      <div class="container">
+          
+          <div class="main">
+              <ul class="tabs">
+                 <li data-tab-target="#homex" class="tab active calc_tab">İpoteka krediti</li>
+                 <li data-tab-target="#pricingx" class="tab calc_tab">Qızıl girovlu kredit</li>
+                 <li data-tab-target="#currency" class="tab calc_tab">Valyuta məzənnəsi</li>
+              </ul>
+          <div class="tab-content">
+
+                <div id="homex" class="active tab_content_calc">
+                 <div class="row">
+                  <h4>Kalkulyator</h4>
+                  <div class="calculate_box">
+
+                     <div class="input_container">
+                            <h5>Məlumatları daxil edin</h5>
+                            <div class="form_element">
+                              <p>Kreditin məbləği</p>
+                              <ul class="number_azn">
+                                <li>71300</li>
+                                <li>AZN</li>
+                              </ul>
+                              <div class="range-slider">
+                                <input type="range" id="volume" name="volume" min="0" max="11">
+                              </div>
+                            </div>
+                            <div class="form_element">
+                              <p>Kreditin müddəti (ay) </p>
+                              <p>12</p>
+                              <div class="range-slider">
+                              <input type="range" id="volume" name="volume" min="0" max="11">
+                            </div>
+                            </div>
+                            <div class="form_element">
+                              <p>İpotekanın növü</p>
+                              <ul style="display: flex;margin: 0;padding: 0;list-style-type: none;">
+                                 <li>Güzəştli</li>
+                                 <li>Standart</li>
+                              </ul>
+                              <div class="range-slider">
+                              <input type="range" id="volume" name="volume" min="0" max="11">
+                            </div>
+                            </div>
+                            <div class="form_element">
+                              <p>Faiz dərəcəsi</p>
+                              <p>4</p>
+                              <div class="range-slider">
+                              <input type="range" id="volume" name="volume" min="0" max="11">
+                            </div>
+                            </div>                    
+                     </div>
+
+                     <div class="result_container">
+                         <h5>Nəticə</h5>
+                         <div class="result_numbers">
+                             <div class="result_for_month">378.56 AZN
+                                <p>Aylıq ödəniş </p>
+                             </div>
+                             <div class="result_for_month">112432.32 AZN
+                              <p>Ümumi məbləğ</p>
+                           </div>
+                         </div>
+                         <button type="button" class="btn btn-warning">SİFARİŞ ETMƏK</button>                       
+                     </div> 
+
+                  </div>
+                 </div>  
+                </div>
+
+                <div id="pricingx" class="tab_content_calc">
+                  <div class="row">
+                    <h4>Kalkulyator</h4>
+                    <div class="calculate_box">
+  
+                       <div class="input_container">
+                              <h5>Məlumatları daxil edin</h5>
+                              <div class="form_element">
+                                <p>Kreditin məbləği</p>
+                                <ul class="number_azn">
+                                  <li>71300</li>
+                                  <li>AZN</li>
+                                </ul>
+                                <div class="range-slider">
+                                  <input type="range" id="volume" name="volume" min="0" max="11" value="50">
+                                </div>
+                              </div>
+                              <div class="form_element">
+                                <p>Kreditin müddəti (ay) </p>
+                                <p>12</p>
+                                <div class="range-slider">
+                                <input type="range" id="volume" name="volume" min="0" max="11">
+                              </div>
+                              </div>                             
+                              <div class="form_element">
+                                <p>Faiz dərəcəsi</p>
+                                <p>4</p>
+                                <div class="range-slider">
+                                <input type="range" id="volume" name="volume" min="0" max="11">
+                              </div>
+                              </div> 
+                              <div class="form_element">
+                                <p>İpotekanın növü</p>
+                                <ul style="display: flex;margin: 0;padding: 0;list-style-type: none;">
+                                   <li>583</li>
+                                   <li>750</li>
+                                </ul>
+                                <div class="range-slider">
+                                <input type="range" id="volume" name="volume" min="0" max="11">
+                              </div>
+                              </div>                   
+                       </div>
+  
+                       <div class="result_container">
+                           <h5>Nəticə</h5>
+                           <div class="result_numbers">
+                               <div class="result_for_month">378.56 AZN
+                                  <p>Aylıq ödəniş </p>
+                               </div>
+                               <div class="result_for_month">112432.32 AZN
+                                <p>Ümumi məbləğ</p>
+                               </div>
+                           </div>
+                               <div class="result_for_month">112432.32 AZN
+                                <p>Ümumi məbləğ</p>
+                               </div>
+                           <button type="button" class="btn btn-warning">SİFARİŞ ETMƏK</button>                       
+                       </div> 
+  
+                    </div>
+                   </div> 
+                </div>
+
+                <div id="currency" class="tab_content_currency">
+                  <div class="row">
+                   <div class="currency_box">
+ 
+                    <ul class="tabs">
+                      <li data-tab-target="#cash" class="tab active currency_tab">Nağd</li>
+                      <li data-tab-target="#cashless" class="tab currency_tab">Nağdsız</li>
+                      <li data-tab-target="#card_transactions" class="tab currency_tab">Kart əməliyyatları</li>
+                   </ul>
+                   
+                  <div class="tab_content_crncy">
+
+                   <div id="cash" class="active tab_content_c">
+                     <div class="cash_container">
+                      <table>
+                        <thead>
+                          <tr>
+                            <td>Valyuta</td>
+                            <td>
+                              <img src="./assets/usd.svg" alt="">
+                              USD
+                            </td>
+                            <td>
+                              <img src="./assets/eur.svg" alt="">
+                              EUR
+                            </td>
+                            <td>
+                              <img src="./assets/rur.svg" alt="">
+                              RUB
+                            </td>
+                            <td>
+                              <img src="./assets/gbp.svg" alt="">
+                              GBP
+                            </td>
+                            <td>
+                              <img src="./assets/ytl.svg" alt="">
+                              TRY
+                            </td>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>ARMB</td>
+                            <td>1.7000</td>
+                            <td>1.8466</td>
+                            <td>0.0217</td>
+                            <td>2.1187</td>
+                            <td>0.0866</td>
+                          </tr>
+                          <tr>
+                            <td>Alış</td>
+                            <td>1.6950</td>
+                            <td>1.8280</td>
+                            <td>0.0199</td>
+                            <td>2.0870</td>
+                            <td>0.0650</td>
+                          </tr>
+                          <tr>
+                            <td>Satış</td>
+                            <td>1.7005</td>
+                            <td>1.8530</td>
+                            <td>0.0225</td>
+                            <td>2.1440</td>
+                            <td>0.0900</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <button type="button" class="btn btn-light">VALYUTA KALKULYATORUNDA HESABLAYIN +</button>
+                      <p>* Regionlarda yerləşən filiallarda valyuta məzənnəsi fərqli ola bilər.  Təcili pul köçürmələri sistemi üzrə filiallarda valyuta məzənnələri fərqli ola bilər.</p>
+                    </div>
+                   </div>
+
+                   <div id="cashless" class="tab_content_c">
+                    <div class="cashless_container">
+                     <table>
+                       <thead>
+                         <tr>
+                           <td>Valyuta</td>
+                           <td>
+                            <img src="./assets/usd.svg" alt="">
+                            USD
+                          </td>
+                          <td>
+                            <img src="./assets/eur.svg" alt="">
+                            EUR
+                          </td>
+                          <td>
+                            <img src="./assets/rur.svg" alt="">
+                            RUB
+                          </td>
+                          <td>
+                            <img src="./assets/gbp.svg" alt="">
+                            GBP
+                          </td>
+                          <td>
+                            <img src="./assets/ytl.svg" alt="">
+                            TRY
+                          </td>
+                         </tr>
+                       </thead>
+                       <tbody>
+                         <tr>
+                           <td>ARMB</td>
+                           <td>1.7000</td>
+                           <td>1.8298</td>
+                           <td>0.0211</td>
+                           <td>2.1077</td>
+                           <td>0.0858</td>
+                         </tr>
+                         <tr>
+                           <td>Alış</td>
+                           <td>1.6990</td>
+                           <td>1.8110</td>
+                           <td>0.0206</td>
+                           <td>2.0760</td>
+                           <td>0.0000</td>
+                         </tr>
+                         <tr>
+                           <td>Satış</td>
+                           <td>1.7025</td>
+                           <td>1.8450</td>
+                           <td>0.0219</td>
+                           <td>2.1330</td>
+                           <td>0.0000</td>
+                         </tr>
+                       </tbody>
+                     </table>
+                     <button type="button" class="btn btn-light">VALYUTA KALKULYATORUNDA HESABLAYIN +</button>
+                     <p>* Regionlarda yerləşən filiallarda valyuta məzənnəsi fərqli ola bilər.  Təcili pul köçürmələri sistemi üzrə filiallarda valyuta məzənnələri fərqli ola bilər.</p>
+                   </div>
+                  </div>
+
+                  <div id="card_transactions" class="tab_content_c">
+                    <div class="card_tr_container">
+                     <table>
+                       <thead>
+                         <tr>
+                           <td>Valyuta</td>
+                           <td>
+                            <img src="./assets/usd.svg" alt="">
+                            USD
+                          </td>
+                          <td>
+                            <img src="./assets/eur.svg" alt="">
+                            EUR
+                          </td>
+                          <td>
+                            <img src="./assets/rur.svg" alt="">
+                            RUB
+                          </td>
+                          <td>
+                            <img src="./assets/gbp.svg" alt="">
+                            GBP
+                          </td>
+                          <td>
+                            <img src="./assets/ytl.svg" alt="">
+                            TRY
+                          </td>
+                         </tr>
+                       </thead>
+                       <tbody>
+                         <tr>
+                           <td>ARMB</td>
+                           <td>1.7000</td>
+                           <td>1.8298	</td>
+                           <td>0.0000</td>
+                           <td>2.1077	</td>
+                           <td>0.0000</td>
+                         </tr>
+                         <tr>
+                           <td>Alış</td>
+                           <td>1.6950</td>
+                           <td>1.8090</td>
+                           <td>0.0000</td>
+                           <td>2.0720</td>
+                           <td>0.0000</td>
+                         </tr>
+                         <tr>
+                           <td>Satış</td>
+                           <td>1.7025</td>
+                           <td>1.8460</td>
+                           <td>0.0000</td>
+                           <td>2.1440</td>
+                           <td>0.0000</td>
+                         </tr>
+                       </tbody>
+                     </table>
+                     <button type="button" class="btn btn-light">VALYUTA KALKULYATORUNDA HESABLAYIN +</button>
+                     <p>* Regionlarda yerləşən filiallarda valyuta məzənnəsi fərqli ola bilər.  Təcili pul köçürmələri sistemi üzrə filiallarda valyuta məzənnələri fərqli ola bilər.</p>
+                   </div>
+                  </div>
+ 
+                   </div>
+                  </div>  
+                 </div>
+
+              </div>
+                 
+          </div>
+      </div>
+
+  </section>
+
+
     
     <script src="./jQuery.js"></script>
     <script src="./js/script.js"></script>
