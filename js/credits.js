@@ -1,4 +1,4 @@
-// ********************** CREDITS NAV&TABS SECTION ******************************
+// ********************** CREDITS NAV&TABS SECTION  ******************************
 
 let tabsCrdt = document.querySelectorAll('.crdt_tab')
 
