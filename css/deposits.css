@@ -186,36 +186,36 @@ nav{
     letter-spacing: 0.06em;
     color: #ffffff;
     margin-bottom: 0px;
-    max-width: 53%;
+    max-width: 55%;
     margin-top: 10px;
 }
 
-/* ************************* CREDITS ==> ALL_CREDITS NAV&TABS SECTİON ************************** */
+/* ************************* DEPOSIT TAB SECTİON ************************** */
 
-.credits{
+.deposits{
     background-color: #f1f1f1;
     height: auto;
     padding: 41px 0 41px 0;
 }
 
-.credits .container{
+.deposits .container{
     width: 85%;
     box-sizing: border-box;
 }
 
-.credits .container .main ul li{
+.deposits .container .main ul li{
     color: #5F6369;
-    margin-right: 48px;
     letter-spacing: 0.06em;
     font-size: 18px;
+    list-style: none;
 }
 
-.credits .container #all_credits .row{
+.deposits .container #all_deposits .row{
     justify-content: space-between;
-    margin: 0;
+    margin: 0 ;
 }
 
-.credits .container #all_credits .row .card{
+.deposits .container #all_deposits .row .card{
     margin-bottom: 48px;
     margin-top: 48px;
     height: 313px;
@@ -223,52 +223,42 @@ nav{
     border: none;
 }
 
-.credits .container #all_credits .row .card .g-0{
-    margin-right: 15px;
-    margin-left: 15px;
+.deposits .container #all_deposits .row .card .g-0{
     border-radius: 8px;
     background: #FFF;
     min-height: auto;
     margin: 0;
+    padding: 0;
 }
 
-.credits .container #all_credits .row .card .g-0 .col-md-4{
+.deposits .container #all_deposits .row .card .g-0 .col-md-4{
     margin-top: -2%;
-    left: 0;
     background: transparent;
     display: block;
     text-align: center;
     height: 110%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.credits .container #all_credits .row .card:nth-child(1) img{
-    height: 255px !important;
-}
-
-.credits .container #all_credits .row .card:nth-child(2) img{
+.deposits .container #all_deposits .row .card:nth-child(1) img,
+.deposits .container #all_deposits .row .card:nth-child(2) img,
+.deposits .container #all_deposits .row .card:nth-child(3) img,
+.deposits .container #all_deposits .row .card:nth-child(4) img{
     height: 338px !important;
 }
 
-.credits .container #all_credits .row .card:nth-child(3) img{
-    height: 338px !important;
-}
-
-.credits .container #all_credits .row .card:nth-child(4) img{
-    height: 340px !important;
-}
-
-.credits .container #all_credits .row .card .g-0 .card-body h4{
+.deposits .container #all_deposits .row .card .g-0 .card-body h4{
     font-style: normal;
     font-size: 32px;
     line-height: 38px;
     letter-spacing: 0.06em;
     color: #231F20;
     margin-bottom: 18px;
+    margin-top: 10px;
 }
 
-.credits .container #all_credits .row .card .g-0 .card-body .card-text{
+.deposits .container #all_deposits .row .card .g-0 .card-body .card-text{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -280,7 +270,7 @@ nav{
     margin-bottom: 22px;
 }
 
-.credits .container #all_credits .row .card .g-0 .card-body .details_of_card h5{
+.deposits .container #all_deposits .row .card .g-0 .card-body .details_of_card h5{
     font-weight: 600;
     font-size: 18px;
     line-height: 150%;
@@ -290,353 +280,29 @@ nav{
     color: #231F20;
 }
 
-.credits .container #all_credits .row .card .g-0 .card-body .details_of_card div{
+.deposits .container #all_deposits .row .card .g-0 .card-body .details_of_card div{
     width: 24.6%;
     height: 55px;
     padding-right: 25px;
 }
 
-.credits .container #all_credits .row .card .g-0 .card-body .details_of_card div:nth-child(2){
+.deposits .container #all_deposits .row .card .g-0 .card-body .details_of_card div:nth-child(2){
     border-right: 1px solid #D7D8D6;
     border-left: 1px solid #D7D8D6;
     padding: 0 25px 0 25px;
     width: 27.5%;
 }
 
-.credits .container #all_credits .row .card .g-0 .card-body .details_of_card div:nth-child(3){
+.deposits .container #all_deposits .row .card .g-0 .card-body .details_of_card div:nth-child(3){
     padding-left: 25px;
-    width: 26%;
+    width: 28%;
 }
 
-.credits .container #all_credits .row .card .g-0 .card-body .buttons_of_cards{
-    margin:35px 0 30px 0;
-}
-
-.credits .container #all_credits .row .card .g-0 .card-body .buttons_of_cards .yellow_btn{
-    margin-right: 16px;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #231F20;
-    padding: 16px 30px;
-    transition: background 0.2s;
-    background: #F9C20A;
-    border: 0;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.credits .container #all_credits .row .card .g-0 .card-body .buttons_of_cards a{
-    color: #5F6369;
-    background-color: #FFF;
-    border: 1px solid #D7D8D6;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #231F20;
-    margin: 0;
-    padding: 16px 30px;
-    border-radius: 8px;
-    text-align: center;
-    margin-right: 16px;
-}
-
-.credits .container #all_credits .row .card .g-0 .card-body .details_of_card p{
-    font-weight: normal;
-    font-size: 13.5px;
-    line-height: 120%;
-    letter-spacing: 0.06em;
-    color: #5F6369;
-    margin-bottom: 24px;
-}
-
-.credits .container #all_credits .row .card .g-0 .card-body .details_of_card{
-    display: flex;
-}
-
-/* ************************* CREDITS ==> CASH_CREDITS NAV&TABS SECTİON ************************** */
-
-.credits .container #cash_credits .row{
-    justify-content: space-between;
-    margin: 0;
-}
-
-.credits .container #cash_credits .row .card{
-    margin-bottom: 48px;
-    margin-top: 48px;
-    height: 313px;
-    padding: 0;
-    border: none;
-}
-
-.credits .container #cash_credits .row .card .g-0{
-    margin-right: 15px;
-    margin-left: 15px;
-    position: relative;
-    border-radius: 8px;
-    background: #FFF;
-    min-height: auto;
-    margin: 0;
-}
-
-.credits .container #cash_credits .row .card .g-0 .col-md-4{
-    margin-top: -2%;
-    left: 0;
-    background: transparent;
-    display: block;
-    text-align: center;
-    height: 110%;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.credits .container #cash_credits .row .card:nth-child(1) img{
-    height: 255px !important;
-}
-
-.credits .container #cash_credits .row .card:nth-child(2) img{
-    height: 338px !important;
-}
-
-.credits .container #cash_credits .row .card:nth-child(3) img{
-    height: 340px !important;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body h4{
-    font-style: normal;
-    font-size: 32px;
-    line-height: 38px;
-    letter-spacing: 0.06em;
-    color: #231F20;
-    margin-bottom: 18px;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .card-text{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: #5F6369;
-    margin-bottom: 22px;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .details_of_card h5{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
-    margin-bottom: 10px;
-    font-style: normal;
-    letter-spacing: 0.06em;
-    color: #231F20;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .details_of_card div{
-    width: 24.6%;
-    height: 55px;
-    padding-right: 25px;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .details_of_card div:nth-child(2){
-    border-right: 1px solid #D7D8D6;
-    border-left: 1px solid #D7D8D6;
-    padding: 0 25px 0 25px;
-    width: 27.5%;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .details_of_card div:nth-child(3){
-    padding-left: 25px;
-    width: 26%;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .buttons_of_cards{
-    margin:35px 0 30px 0;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .buttons_of_cards .yellow_btn{
-    margin-right: 16px;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #231F20;
-    padding: 16px 30px;
-    transition: background 0.2s;
-    background: #F9C20A;
-    border: 0;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .buttons_of_cards a{
-    color: #5F6369;
-    background-color: #FFF;
-    border: 1px solid #D7D8D6;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #231F20;
-    margin: 0;
-    padding: 16px 30px;
-    border-radius: 8px;
-    text-align: center;
-    margin-right: 16px;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .details_of_card p{
-    font-weight: normal;
-    font-size: 13.5px;
-    line-height: 120%;
-    letter-spacing: 0.06em;
-    color: #5F6369;
-    margin-bottom: 24px;
-}
-
-.credits .container #cash_credits .row .card .g-0 .card-body .details_of_card{
-    display: flex;
-}
-
-.tab_content_crdts{
-    display: none;
-  }
-  .active.tab_content_crdts{
-    display: block;
-  }
-  .tabs{
-    display:flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-right: 10px;
-    border-bottom: 1px solid #D7D8D6;
-  }
-  
-  .main{
-    padding: 0;
-    margin: 0;
-  }
-  
-  .tab{
-    cursor: pointer;
-    padding: 10px;
-  }
-  .tab.active{
-    color: #ff0141;
-    border-bottom: 1px solid #5F6369;
-  }
- 
-/* ************************* CREDITS ==> CARDS_OF_CREDITS NAV&TABS SECTİON ************************** */
-
-.credits .container #cards_of_credits .row{
-    justify-content: space-between;
-    margin: 0;
-}
-
-.credits .container #cards_of_credits .row .card{
-    margin-bottom: 48px;
-    margin-top: 48px;
-    height: 313px;
-    padding: 0;
-    border: none;
-}
-
-.credits .container #cards_of_credits .row .card .g-0{
-    margin-right: 15px;
-    margin-left: 15px;
-    border-radius: 8px;
-    background: #FFF;
-    min-height: auto;
-    margin: 0;
-}
-
-.credits .container #cards_of_credits .row .card .g-0 .col-md-3{
-    margin-top: -2%;
-    left: 0;
-    background: transparent;
-    display: block;
-    text-align: center;
-    height: 110%;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.credits .container #cards_of_credits .row .card:nth-child(1) img{
-    height: 338px !important;
-}
-
-.credits .container #cards_of_credits .row .card:nth-child(2) img{
-    height: 300px !important;
-}
-
-.credits .container #cards_of_credits .row .card:nth-child(3) img{
-    height: 300px !important;
-}
-
-.credits .container #cards_of_credits .row .card .g-0 .card-body h4{
-    font-style: normal;
-    font-size: 32px;
-    line-height: 38px;
-    letter-spacing: 0.06em;
-    color: #231F20;
-    margin-bottom: 18px;
-}
-
-.credits .container #cards_of_credits .row .card .g-0 .card-body .card-text{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    color: #5F6369;
-    margin-bottom: 22px;
-}
-
-.credits .container #cards_of_credits .row .card .g-0 .card-body .details_of_card h5{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
-    margin-bottom: 10px;
-    font-style: normal;
-    letter-spacing: 0.06em;
-    color: #231F20;
-}
-
-.credits .container #cards_of_credits .row .card .g-0 .card-body .details_of_card div{
-    width: 24.6%;
-    height: 55px;
-    padding-right: 25px;
-}
-
-.credits .container #cards_of_credits .row .card .g-0 .card-body .details_of_card div:nth-child(2){
-    border-right: 1px solid #D7D8D6;
-    border-left: 1px solid #D7D8D6;
-    padding: 0 25px 0 25px;
-    width: 27.5%;
-}
-
-.credits .container #cards_of_credits .row .card .g-0 .card-body .details_of_card div:nth-child(3){
-    padding-left: 25px;
-    width: 26%;
-}
-
-.credits .container #cards_of_credits .row .card .g-0 .card-body .buttons_of_cards{
+.deposits .container #all_deposits .row .card .g-0 .card-body .buttons_of_cards{
     margin:35px 0 10px 0;
 }
 
-.credits .container #cards_of_credits .row .card .g-0 .card-body .buttons_of_cards .yellow_btn{
+.deposits .container #all_deposits .row .card .g-0 .card-body .buttons_of_cards .yellow_btn{
     margin-right: 16px;
     text-decoration: none;
     font-weight: normal;
@@ -653,7 +319,7 @@ nav{
     text-align: center;
 }
 
-.credits .container #cards_of_credits .row .card .g-0 .card-body .buttons_of_cards a{
+.deposits .container #all_deposits .row .card .g-0 .card-body .buttons_of_cards a{
     color: #5F6369;
     background-color: #FFF;
     border: 1px solid #D7D8D6;
@@ -670,7 +336,7 @@ nav{
     margin-right: 16px;
 }
 
-.credits .container #cards_of_credits .row .card .g-0 .card-body .details_of_card p{
+.deposits .container #all_deposits .row .card .g-0 .card-body .details_of_card p{
     font-weight: normal;
     font-size: 13.5px;
     line-height: 120%;
@@ -679,25 +345,19 @@ nav{
     margin-bottom: 24px;
 }
 
-.credits .container #cards_of_credits .row .card .g-0 .card-body .details_of_card{
+.deposits .container #all_deposits .row .card .g-0 .card-body .details_of_card{
     display: flex;
 }
 
-.credits .container #cards_of_credits .row .card .g-0 .card-body .special_detail div:nth-child(1){
-    width: 36%;
+.deposits .container #all_deposits .row .card .g-0 .card-body .details_of_card div{
+    width: 30%;
 }
 
-.credits .container #cards_of_credits .row .card .g-0 .card-body .special_detail div:nth-child(2){
+.deposits .container #all_deposits .row .card .g-0 .card-body .details_of_card div:nth-child(3){
     border-right: none;
 }
 
-.tab_content_crdts{
-    display: none;
-  }
-  .active.tab_content_crdts{
-    display: block;
-  }
-  .tabs{
+.tabs{
     display:flex;
     list-style-type: none;
     margin: 0;
@@ -714,10 +374,6 @@ nav{
   .tab{
     cursor: pointer;
     padding: 10px;
-  }
-  .tab.active{
-    color: #ff0141;
-    border-bottom: 1px solid #5F6369;
   }
 
 /* ***************** CONTACT_US SECTION **************** */
