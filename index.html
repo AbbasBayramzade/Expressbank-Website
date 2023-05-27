@@ -122,7 +122,7 @@
                         <div class="textOfSlide">
                             <h1>Qızıl girovlu kredit</h1>
                             <p>Rəsmi gəliriniz istədiyiniz məbləği əldə etməyə imkan vermirsə, o zaman bu məhsul SİZİN üçündür!</p>
-                            <button type="button" class="btn btn-warning">ƏTRAFLI</button>
+                            <a type="button" class="btn btn-warning" href="order.html#reasons">ƏTRAFLI</a>
                         </div>
                         <div>
                             <img class="d-block w-100" src="./assets/firstslide.jpg" alt="First slide">
@@ -132,7 +132,7 @@
                         <div class="textOfSlide">
                             <h1>Nağd istehlak krediti</h1>
                             <p>Təmir, Təhsil, Toy, Səyahət, Avtomobil! Bu və ya digər məqsədlər üçün sizə nağd pul lazımdırsa bu kredit SİZİN üçündür!</p>
-                            <button type="button" class="btn btn-warning">SİFARİŞ ETMƏK</button>
+                            <a type="button" class="btn btn-warning" href="order.html#form_orderr">SİFARİŞ ETMƏK</a>
                         </div>
                         <div>
                             <img class="d-block w-100" src="./assets/secondslide.png" alt="Second slide">
@@ -173,7 +173,7 @@
                         <div class="card-body">
                           <h5 class="card-title">KREDİTLƏR</h5>
                           <p class="card-text">Nağd istehlak krediti</p>
-                          <a href="#" class="btn btn-primary">SİFARİŞ ETMƏK</a>
+                          <a href="./order.html#form_orderr" class="btn btn-primary">SİFARİŞ ETMƏK</a>
                         </div>
                       </div>
                     </div>
@@ -183,7 +183,7 @@
                         <div class="card-body">
                           <h5 class="card-title">KREDİTLƏR</h5>
                           <p class="card-text">Qızıl girovlu kredit</p>
-                          <a href="#" class="btn btn-primary">SİFARİŞ ETMƏK</a>
+                          <a href="./order.html#form_orderr" class="btn btn-primary">SİFARİŞ ETMƏK</a>
                         </div>
                       </div>
                     </div> 
@@ -193,7 +193,7 @@
                         <div class="card-body">
                           <h5 class="card-title">KREDİTLƏR</h5>
                           <p class="card-text">İpoteka krediti</p>
-                          <a href="#" class="btn btn-primary">SİFARİŞ ETMƏK</a>
+                          <a href="./order.html#form_orderr" class="btn btn-primary">SİFARİŞ ETMƏK</a>
                         </div>
                       </div>
                     </div> 
@@ -203,7 +203,7 @@
                         <div class="card-body">
                           <h5 class="card-title">KREDİTLƏR</h5>
                           <p class="card-text">Bank Seyfləri</p>
-                          <a href="#" class="btn btn-primary">SİFARİŞ ETMƏK</a>
+                          <a href="./order.html#form_orderr" class="btn btn-primary">SİFARİŞ ETMƏK</a>
                         </div>
                       </div>
                     </div> 
@@ -284,19 +284,19 @@
                             <div class="form_element">
                               <p>Kreditin məbləği</p>
                               <ul class="number_azn">
-                                <li>71300</li>
+                                <li id="test_li">71300</li>
                                 <li>AZN</li>
                               </ul>
                               <div class="range-slider">
-                                <input type="range" id="volume" name="volume" min="0" max="11">
+                                <input type="range" id="volume" name="volume" min="1" max="100" class="special_input" oninput="document.getElementById('test_li').innerHTML = this.value*1000">
                               </div>
                             </div>
                             <div class="form_element">
                               <p>Kreditin müddəti (ay) </p>
-                              <p>12</p>
+                              <p id="test_p2">12</p>
                               <div class="range-slider">
-                              <input type="range" id="volume" name="volume" min="0" max="11">
-                            </div>
+                                 <input type="range" id="volume2" name="volume" min="1" max="12" class="special_input" oninput="document.getElementById('test_p2').innerHTML = this.value">
+                              </div>
                             </div>
                             <div class="form_element">
                               <p>İpotekanın növü</p>
@@ -305,14 +305,14 @@
                                  <li>Standart</li>
                               </ul>
                               <div class="range-slider">
-                              <input type="range" id="volume" name="volume" min="0" max="11">
+                              <input type="range" id="volume3" name="volume" min="0" max="100" class="special_input">
                             </div>
                             </div>
                             <div class="form_element">
                               <p>Faiz dərəcəsi</p>
                               <p>4</p>
                               <div class="range-slider">
-                              <input type="range" id="volume" name="volume" min="0" max="11">
+                              <input type="range" id="volume4" name="volume" min="0" max="100" class="special_input">
                             </div>
                             </div>                    
                      </div>
@@ -327,7 +327,7 @@
                               <p>Ümumi məbləğ</p>
                            </div>
                          </div>
-                         <button type="button" class="btn btn-warning">SİFARİŞ ETMƏK</button>                       
+                         <a type="button" class="btn btn-warning" href="order.html#form_orderr">SİFARİŞ ETMƏK</a>                       
                      </div> 
 
                   </div>
@@ -344,25 +344,25 @@
                               <div class="form_element">
                                 <p>Kreditin məbləği</p>
                                 <ul class="number_azn">
-                                  <li>71300</li>
+                                  <li id="test_li1">71300</li>
                                   <li>AZN</li>
                                 </ul>
                                 <div class="range-slider">
-                                  <input type="range" id="volume" name="volume" min="0" max="11" value="50">
+                                  <input type="range" id="volume5" name="volume" min="1" max="100" class="special_input" oninput="document.getElementById('test_li1').innerHTML = this.value*1000">
                                 </div>
                               </div>
                               <div class="form_element">
                                 <p>Kreditin müddəti (ay) </p>
-                                <p>12</p>
+                                <p id="test_p5">12</p>
                                 <div class="range-slider">
-                                <input type="range" id="volume" name="volume" min="0" max="11">
-                              </div>
+                                  <input type="range" id="volume6" name="volume" min="1" max="12" class="special_input" oninput="document.getElementById('test_p5').innerHTML = this.value">
+                               </div>
                               </div>                             
                               <div class="form_element">
                                 <p>Faiz dərəcəsi</p>
                                 <p>4</p>
                                 <div class="range-slider">
-                                <input type="range" id="volume" name="volume" min="0" max="11">
+                                <input type="range" id="volume7" name="volume" min="0" max="11" class="special_input">
                               </div>
                               </div> 
                               <div class="form_element">
@@ -372,7 +372,7 @@
                                    <li>750</li>
                                 </ul>
                                 <div class="range-slider">
-                                <input type="range" id="volume" name="volume" min="0" max="11">
+                                <input type="range" id="volume8" name="volume" min="0" max="11" class="special_input">
                               </div>
                               </div>                   
                        </div>

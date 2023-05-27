@@ -344,6 +344,7 @@ nav{
     border-radius: 8px;
     text-align: center;
     margin-right: 16px;
+    text-decoration: none;
 }
 
 .credits .container #all_credits .row .card .g-0 .card-body .details_of_card p{

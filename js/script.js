@@ -137,4 +137,56 @@ tabsCrncy.forEach(tab=>{
   })
 })
 
+const range = document.getElementById('volume');
+    range.addEventListener('input', (event) => {
+    range.style.setProperty('--range-value', `${event.target.value}%`);
+});
 
+const range2 = document.getElementById('volume2');
+  range2.addEventListener('input', (event) => {
+  range2.style.setProperty('--range-value', `${event.target.value}%`);
+  p.innerHTML = range2.value
+});
+const range3 = document.getElementById('volume3');
+    range3.addEventListener('input', (event) => {
+    range3.style.setProperty('--range-value', `${event.target.value}%`);
+});
+const range4 = document.getElementById('volume4');
+    range4.addEventListener('input', (event) => {
+    range4.style.setProperty('--range-value', `${event.target.value}%`);
+});
+
+const range5 = document.getElementById('volume5');
+    range5.addEventListener('input', (event) => {
+    range5.style.setProperty('--range-value', `${event.target.value}%`);
+});
+
+const range6 = document.getElementById('volume6');
+  range6.addEventListener('input', (event) => {
+  range6.style.setProperty('--range-value', `${event.target.value}%`);
+  p.innerHTML = range2.value
+});
+const range7 = document.getElementById('volume7');
+    range7.addEventListener('input', (event) => {
+    range7.style.setProperty('--range-value', `${event.target.value}%`);
+});
+const range8 = document.getElementById('volume8');
+    range8.addEventListener('input', (event) => {
+    range8.style.setProperty('--range-value', `${event.target.value}%`);
+});
+
+// let p = document.getElementById('test_p2')
+
+// let input_val = document.getElementById("volume2")
+
+// p.innerText = input_val.value
+
+
+// oninput="document.getElementById('test_p2').innerHTML = this.value"
+
+// range2.addEventListener("click",function(){
+// p.innerHTML = input_val
+// })
+
+
+  
